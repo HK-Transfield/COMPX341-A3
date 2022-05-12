@@ -22,7 +22,7 @@ export class BestSellersBar extends React.Component {
           </LinkContainer>
         </div>
         <div className="row">
-          {bestSellers.map(book =>
+          {bestSellers.map(books =>
             <div className="col-md-2 hidden-sm hidden-xs" key={book}>
               <LinkContainer to="/best">
                 <NavItem><img src={book} className="thumbs" /></NavItem>
