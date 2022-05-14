@@ -1,4 +1,4 @@
-//
+// Harmon Transfield, 1317381
 export const categories = {
   cooks: "Cookbooks",
   database: "Database",

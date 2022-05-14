@@ -1,4 +1,4 @@
-//
+// Harmon Transfield, 1317381
 export default {
   apiGateway: {
     REGION: "us-east-1",
