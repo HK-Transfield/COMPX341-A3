@@ -17,7 +17,9 @@ handle_git() {
         echo "(3) Commiting changes and pushing repository to Github"
 
         local m="$1"
-     
+
+        cd .. # return to root of project
+
         git add .
         git commit -m "$m"
         git push
