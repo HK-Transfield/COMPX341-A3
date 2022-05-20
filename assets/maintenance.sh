@@ -10,7 +10,7 @@
 ts_array=()
 readarray -d '' ts_array < <(find . -type f -name "*.ts" -not -path "./node_modules/*" -print0)
 
-echo "Files with a .ts extention:"
+echo "Files with a .ts extension:"
 for ts_file in "${ts_array[@]}"
 do
     echo "$ts_file"
