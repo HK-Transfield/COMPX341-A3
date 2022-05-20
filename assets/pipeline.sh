@@ -46,6 +46,7 @@ install_and_build_app() {
 #######################################
 start_app() {
     echo "(5) Start (run the application)"
+    cd /assets
     npm run start
 }
 
